@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+        }
+
+        form {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        input,button {
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .alterar-paragrafos {
+            display: none;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+
+        <form class="criar-paragrafos">
+
+            <input type="number" placeholder="Digite a quantidade de parágrafos" id="qtd-paragrafos">
+            <button type="button" id="btn-gerar">Gerar parágrafos</button>
+
+        </form>
+
+        <form class="alterar-paragrafos">
+
+            <input type="number" placeholder="Digite o numero do parágrafo para alterar" id="paragrafo-alterar">
+            <button type="button" id="btn-alterar">Alterar</button>
+
+        </form>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
